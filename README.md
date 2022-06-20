@@ -1,5 +1,6 @@
 # This is a experimental version of the nonplanar slicing
 ## Links: 
+* https://all3dp.com/2/non-planar-3d-printing-simply-explained/
 
 * https://tams.informatik.uni-hamburg.de/research/3d-printing/nonplanar_printing/index.php
 
