@@ -34,6 +34,7 @@ if(WIN32)
 endif()
 
 add_definitions(-DwxUSE_UNICODE -D_UNICODE -DUNICODE)
+add_definitions(-DBOOST_LITTLE_ENDIAN -DBOOST_BIND_GLOBAL_PLACEHOLDERS)
 
 # Disable features of exprtk to reduce size.
 add_definitions(-Dexprtk_disable_rtl_io_file -Dexprtk_disable_return_statement -Dexprtk_disable_rtl_vecops -Dexprtk_disable_string_capabilities -Dexprtk_disable_enhanced_features)

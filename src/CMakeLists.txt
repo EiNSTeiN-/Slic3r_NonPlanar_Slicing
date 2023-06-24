@@ -21,6 +21,7 @@ ELSE(CMAKE_HOST_APPLE)
 ENDIF(CMAKE_HOST_APPLE)
 set(Boost_USE_STATIC_LIBS ON)
 set(Boost_USE_STATIC_RUNTIME ON)
+add_definitions(-DBOOST_LITTLE_ENDIAN)
 set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
 find_package(Boost COMPONENTS system thread filesystem)
 

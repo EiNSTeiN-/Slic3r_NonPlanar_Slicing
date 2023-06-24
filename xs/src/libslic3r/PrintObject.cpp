@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <vector>
 #include "SVG.hpp"
+#include <boost/bind.hpp>
 
 namespace Slic3r {
 
